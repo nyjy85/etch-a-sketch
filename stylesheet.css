@@ -1,0 +1,34 @@
+body {
+	line-height: 0; /*prevents spacing between rows*/
+	font-family: arial;
+	text-align: center;
+
+}
+#container{
+	width: 700px;
+	height: 200px;
+	margin-left: auto; /*centers the div*/
+	margin-right: auto; /*centers the div*/
+	margin-top: 40px;
+}
+ul li{
+	display: inline;
+	padding-right: 20px;
+}
+.inner {
+/*	 height: 40px;
+	 width: 40px;*/
+	background-color: #E8E8E8;
+	display: inline-block;
+	outline: solid;
+	outline-width: thin;
+}
+
+.square{
+	background-color: black; /*needs to be black cuz as ombre gets lighter, it actually has to get darker*/
+	display: inline-block;
+}
+.hover {
+	background-color: black;
+
+}

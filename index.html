@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+  <meta charset="utf-8">
+  <title>Etch-A-Sketch</title>
+</head>
+<body>
+	<div id="container">
+		<h2>Etch-A-Sketch</h2>
+		<h5>Please enter a number between 10~50</h5>
+		<input type="text">
+		<ul>
+			<li>
+				<button id="default">Default</button>
+			</li>
+			<li>
+				<button id="ombre">Ombré</button>
+			</li>
+			<li>
+				<select>
+					<option id="black" selected>Black</option>
+					<option id="red">Red</option>
+					<option id="blue">Blue</option>
+					<option id="green">Green</option>
+					<option id="orange">Orange</option>
+					<option id="purple">Purple</option>
+				</select>
+			</li>
+			<li>
+				<button id="colorful" disabled>Colorful</button>
+			</li>
+			<li>
+				<button id="trail" disabled>Trail</button>
+			</li>
+		</ul>
+		
+		<div class="grid"></div>
+
+	</div>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="style.js"></script>
+</body>
+</html>
